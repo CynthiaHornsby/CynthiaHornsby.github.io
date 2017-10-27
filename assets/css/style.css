@@ -1,0 +1,219 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    line-height: 150%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(../images/doodles.png);
+    color: #262323;
+}
+
+
+body a {
+    color: black;
+    text-decoration: none;
+}
+
+body a:hover {
+    cursor: crosshair;
+}
+
+header {
+    background: white;
+    position: relative;
+    top: -20px;
+    margin-bottom: -5%;
+}
+
+h1 {
+    background: #4DD4CA;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color: white;
+    width: 140px;
+    padding: 40px 0px 20px 0px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #4DD4CA;
+    font-size: 24px;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    top: -50px;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+nav a:hover {
+    opacity: .5;
+    cursor: crosshair;
+    text-decoration: none;
+}
+
+nav a:active:visited {
+    color: black;
+}
+
+.contactlinks li {
+    display: inline-block;
+
+}
+
+.contactimage {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -30px;
+    margin: 2px;
+}
+
+.divider {
+    background-color: gray;
+    height: 2px;
+    margin: 30px 0 30px;
+}
+
+.divider2 {
+    background-color: gray;
+    height: 2px;
+    width: 85%;
+    position: relative;
+    left: 20px;
+    margin: 4% 0 5% 0;
+}
+
+.container {
+    width: 71.2%;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#main-bio {
+    width: 62.3%;
+    position: relative;
+    margin-left: -80px;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px 20px 30px;
+    clear: both;
+}
+
+#contact-info {
+    width: 28%;
+    height: 100%;
+    background: white;
+    border: 1px solid black;
+    margin-left: 40px;
+    padding: 2% 0 2% 0%;
+    text-align: center;
+
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.footer {
+    border-top: 4px solid #4DD4CA;
+    padding-top: 20px;
+    height: 40px;
+    background: white;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 3%;
+}
+
+.form {
+    list-style-type: none;
+}
+
+.contactinfo {
+    font-weight: bold;
+}
+
+.contactlinks {
+    padding: 2% 0% 2% 23%;
+}
+
+input {
+    width: 90%;
+    padding: 2% 0 2% 3%;
+}
+
+button {
+    background: #4DD4CA;
+    border: none;
+    width: 28%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
+    margin: 2% 0% 5% 0%;
+}
+
+.comments {
+    height: 200px;
+    width: 91.5%;
+    padding: 2% 0 2% 2%;
+}
+
+.images {
+    float: left;
+    margin-left: 5%;
+}
+
+.images2 {
+    float: left;
+    margin-left: 5%;
+}
+
+.portfolio {
+    background: #4DD4CA;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    width: 100%;
+    height: 3%;
+    top: 190px;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+}
+
+.games:hover {
+    opacity: .2;
+    cursor: crosshair;
+}
